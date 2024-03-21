@@ -18,9 +18,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={dmSans.variable}>
-      <body>
+      <body className="bg-[#070815] text-white">
         <Header />
-        {children}
+        <main>{children}</main>
         <Footer />
       </body>
       <PrismicPreview repositoryName={repositoryName} />
