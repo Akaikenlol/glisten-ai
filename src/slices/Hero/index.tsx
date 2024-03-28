@@ -50,6 +50,7 @@ const Hero = ({ slice }: HeroProps): JSX.Element => {
             <PrismicNextImage
               className="rounded-lg"
               field={slice.primary.image}
+              alt=""
             />
           </div>
         )}
